@@ -1,0 +1,66 @@
+.navbar{
+    height: 50px;
+    background-color: rgb(15, 18, 63);
+    /* background-color: #013277; */
+    /* background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQda7xDiHUIyNWNiBGH3Eth0ci-K9WNJCT0ag&usqp=CAU) ; */
+
+    display: flex;
+    justify-content: center;
+    position: sticky;
+
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 600;
+}
+
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* color: black;
+    appearance: button;
+    background-color: #394144;
+    border: solid transparent;
+    border-radius: 10px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color:white; */
+    align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: rgb(15, 18, 63);
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 1;
+  outline: none;
+  padding: 0.6rem 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
